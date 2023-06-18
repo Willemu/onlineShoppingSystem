@@ -122,12 +122,12 @@ session_start();
 			<div id="top-header">
 				<div class="container">
 					<ul class="header-links pull-left">
-						<li><a href="#"><i class="fa fa-phone"></i> +91-9535688928</a></li>
-						<li><a href="#"><i class="fa fa-envelope-o"></i> puneethreddy951@gmail.com</a></li>
-						<li><a href="#"><i class="fa fa-map-marker"></i>Bangalore</a></li>
+						<li><a href="#"><i class="fa fa-phone"></i> +27 78 456694</a></li>
+						<li><a href="#"><i class="fa fa-envelope-o"></i> ww117733mm@gmail.com</a></li>
+						<li><a href="#"><i class="fa fa-map-marker"></i>Centurion</a></li>
 					</ul>
 					<ul class="header-links pull-right">
-						<li><a href="#"><i class="fa fa-inr"></i> INR</a></li>
+						<li><a href="#"><i class="fa-regular fa-registered"></i></i>Register</a></li>
 						<li><?php
                              include "db.php";
                             if(isset($_SESSION["uid"])){
@@ -206,15 +206,7 @@ session_start();
 						<!-- ACCOUNT -->
 						<div class="col-md-3 clearfix">
 							<div class="header-ctn">
-								<!-- Wishlist -->
-								<div>
-									<a href="https://github.com/puneethreddyhc">
-										<i class="fa fa-github"></i>
-										<span>Github</span>
-										
-									</a>
-								</div>
-								<!-- /Wishlist -->
+								
 
 								<!-- Cart -->
 								<div class="dropdown">
