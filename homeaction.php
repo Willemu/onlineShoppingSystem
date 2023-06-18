@@ -2,6 +2,8 @@
 session_start();
 $ip_add = getenv("REMOTE_ADDR");
 include "db.php";
+ini_set('display_errors', 1);
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 if(isset($_POST["categoryhome"])){
 	$category_query = "SELECT * FROM categories WHERE cat_id!=1";

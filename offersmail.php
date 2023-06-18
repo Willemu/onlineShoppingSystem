@@ -1,6 +1,9 @@
 <?php
 session_start();
 include "db.php";
+ini_set('display_errors', 1);
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+
 if (isset($_POST["email"])) {
     $email = $_POST['email'];
     $emailValidation = "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9]+(\.[a-z]{2,4})$/";

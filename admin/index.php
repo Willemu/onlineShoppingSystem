@@ -2,9 +2,10 @@
     <?php
 session_start();
 include("../db.php");
-
 include "sidenav.php";
 include "topheader.php";
+ini_set('display_errors', 1);
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 ?>
       <!-- End Navbar -->
       <div class="content">

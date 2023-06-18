@@ -2,6 +2,9 @@
     <?php
 session_start();
 include("../db.php");
+ini_set('display_errors', 1);
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+
 $user_id=$_REQUEST['user_id'];
 
 $result=mysqli_query($con,"select user_id,first_name,last_name, email, password from user_info where user_id='$user_id'")or die ("query 1 incorrect.......");

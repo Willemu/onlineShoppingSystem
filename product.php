@@ -1,6 +1,9 @@
 <?php
 include "header.php";
+ini_set('display_errors', 1);
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 ?>
+
 <!-- /BREADCRUMB -->
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
