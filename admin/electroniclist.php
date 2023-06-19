@@ -21,7 +21,7 @@ if(file_exists($path)==true)
 }
 else
 {}
-/*this is delet query*/
+/*this is delete query*/
 mysqli_query($con,"delete from products where product_id='$product_id'")or die("query is incorrect...");
 }
 
