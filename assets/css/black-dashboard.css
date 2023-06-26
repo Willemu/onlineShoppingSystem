@@ -4232,7 +4232,7 @@ table.tablesorter thead tr .headerSortDown {
 
 .footer nav {
   display: inline-block;
-  float: left;
+  float: none;
   padding-left: 7px;
 }
 
@@ -4451,7 +4451,7 @@ table.tablesorter thead tr .headerSortDown {
 }
 
 .fixed-plugin .adjustments-line p {
-  float: left;
+  float: none;
   display: inline-block;
   margin-bottom: 0;
   font-size: 1em;

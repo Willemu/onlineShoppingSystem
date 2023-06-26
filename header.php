@@ -286,7 +286,7 @@ mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
                         </div>
                       </div>
                 <div class="modal fade" id="Modal_register" role="dialog">
-                        <div class="modal-dialog" style="">
+                        <div class="modal-dialog" style="padding: 20px";>
 
                           <!-- Modal content-->
                           <div class="modal-content">

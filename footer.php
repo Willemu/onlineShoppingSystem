@@ -10,7 +10,9 @@
 								<h3 class="footer-title">About Us</h3>
 								<p>Shop till you drop!! We are here for you.</p>
 								<ul class="footer-links">
-									<li><a href="#"><i class="fa fa-map-marker"></i>Centurion, Pretoria</a></li>
+								<a href="https://goo.gl/maps/47cKY34FL2s2Sgvy6" target="_blank" class="d-inline-block text-decoration-none text-dark">
+            						<i class="bi bi-geo-alt"></i>123 Centurion Mall, Die Hoewes, Centurion, 0157
+          						</a>
 									<li><a href="#"><i class="fa fa-phone"></i>+2778 45695</a></li>
 									<li><a href="#"><i class="fa fa-envelope-o"></i>ww117733mm@gmail.com</a></li>
 								</ul>
